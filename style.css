@@ -1105,34 +1105,34 @@ body {
   counter-reset: a b;
 }
 @font-face {
-  font-family: Lato;
+  font-family: IBM Plex Mono;
   font-style: normal;
   font-weight: 400;
-  src: url(/static/fonts/lato-normal.27bd77b.woff) format("woff");
+  src: url(/static/fonts/IBMPlexMono-Regular.ttf) format("ttf");
 }
 @font-face {
-  font-family: Lato;
+  font-family: IBM Plex Mono;
   font-style: italic;
   font-weight: 400;
-  src: url(/static/fonts/lato-normal-italic.f28f2d6.woff) format("woff");
+  src: url(/static/fonts/IBMPlexMono-Italic.ttf) format("woff");
 }
 @font-face {
-  font-family: Lato;
+  font-family: IBM Plex Mono;
   font-style: normal;
   font-weight: 600;
-  src: url(/static/fonts/lato-black.f80bda6.woff) format("woff");
+  src: url(/static/fonts/IBMPlexMono-SemiBold.ttf) format("ttf");
 }
 @font-face {
-  font-family: Lato;
+  font-family: IBM Plex Mono;
   font-style: italic;
   font-weight: 600;
-  src: url(/static/fonts/lato-black-italic.798eafd.woff) format("woff");
+  src: url(/static/fonts/IBMPlexMono-SemiBoldItalic.ttf) format("ttf");
 }
 @font-face {
   font-family: Roboto Mono;
   font-style: normal;
   font-weight: 400;
-  src: url(/static/fonts/RobotoMono-Regular.0b6a547.woff) format("woff");
+  src: url(/static/fonts/RobotoMono-Regular.0b6a547.ttf) format("ttf");
 }
 @font-face {
   font-family: Roboto Mono;
@@ -1428,7 +1428,7 @@ body,
 html {
   color: rgba(0, 0, 0, 0.75);
   font-size: 16px;
-  font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
+  font-family: IBM Plex Mono, Helvetica Neue, Helvetica, sans-serif;
   font-variant-ligatures: common-ligatures;
   line-height: 1.67;
   -webkit-font-smoothing: antialiased;
@@ -1546,7 +1546,7 @@ mark {
   background-color: #f8f840;
 }
 kbd {
-  font-family: Lato, Helvetica Neue, Helvetica, sans-serif;
+  font-family: IBM Plex Mono, Helvetica Neue, Helvetica, sans-serif;
   background-color: #fff;
   border: 1px solid rgba(63, 63, 63, 0.25);
   border-radius: 3px;
